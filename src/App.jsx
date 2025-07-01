@@ -25,7 +25,11 @@ function App() {
 
   return (
     <>
-      <h1>PORTFOLIO</h1>
+      <div className="home">
+      <h2>Hello, I'm <span className="highlight">Arya V P</span></h2>
+      <p className="tagline">A Computer Science Student passionate about Web Development & AI</p>
+      <p className="welcome">Welcome to my personal portfolio website.</p>
+      </div>
       <div className="nav-links">  
         <button onClick={AboutPath}>About me</button>
         <button onClick={SkillPath}>Skills</button>
